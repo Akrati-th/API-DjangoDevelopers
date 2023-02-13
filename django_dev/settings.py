@@ -14,7 +14,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangodevelopers-api-production.up.railway.app']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
